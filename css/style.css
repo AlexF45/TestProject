@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+  color:black;
+}
+
+img {
+  height: auto;
+  width: 500px;
+  ;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.skills-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  content: 200px;
+  font-size: 20x;
+  text-align: center;
+
+  flex-grow: 1;
+  flex-shrink: 0;
+}
